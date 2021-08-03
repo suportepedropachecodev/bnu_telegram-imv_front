@@ -1,0 +1,27 @@
+{
+  "name": "bnu_telegram-imv_front",
+  "version": "1.0.0",
+  "description": "Frontend de bot telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suportepedropachecodev/bnu_telegram-imv_front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suportepedropachecodev/bnu_telegram-imv_front/issues"
+  },
+  "homepage": "https://github.com/suportepedropachecodev/bnu_telegram-imv_front#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.5",
+    "telegraf": "^4.4.1"
+  }
+}
